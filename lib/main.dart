@@ -10,7 +10,7 @@ void main() => runApp(
             backgroundColor: Colors.blueGrey[900],
           ),
           body: Center(
-            child: Image.network('https://i.stack.imgur.com/hI8xE.png'),
+            child: Image.asset('images/diamond.png'),
           ),
         ),
       ),
