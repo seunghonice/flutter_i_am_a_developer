@@ -4,14 +4,14 @@ void main() => runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: Colors.grey,
           appBar: AppBar(
-            title: Text('Young and Rich'),
-            backgroundColor: Colors.blueGrey[900],
+            title: Text("I am a developer"),
+            backgroundColor: Colors.deepOrangeAccent,
           ),
           body: Center(
-            child: Image.asset('images/diamond.png'),
+            child: Image.asset("images/developer.png"),
           ),
         ),
-      ),
+      )
     );
